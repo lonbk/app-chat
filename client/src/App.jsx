@@ -36,6 +36,7 @@ const App = () => {
 
     return (
         <div className="app__wrapper">
+            <div>Hello</div>
             <Chat client={client} theme="team light">
                 <ChannelListContainer 
                     isCreating={isCreating}
